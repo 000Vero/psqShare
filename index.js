@@ -28,7 +28,4 @@ app.get("/editor", (req, res) => {
   res.render("editor")
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-  console.log(process.env)
-})
+app.listen(port)
