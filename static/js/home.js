@@ -1,4 +1,4 @@
-const pb = new PocketBase("https://psqshare.psqsoft.org")
+const pb = new PocketBase("https://psqsharedb.psqsoft.org")
 
 const notificationTemplate = `
 <div class="notification is-notification_type">
