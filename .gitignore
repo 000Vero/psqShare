@@ -1,0 +1,5 @@
+pocketbase
+pb_data/
+pb_hooks/
+node_modules/
+pb_migrations/

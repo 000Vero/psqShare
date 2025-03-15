@@ -1,0 +1,20 @@
+.title {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content, #author, #delete {
+    margin: 10px;
+}
+
+#loadingBar {
+    width: 50vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#delete {
+    display: none;
+}

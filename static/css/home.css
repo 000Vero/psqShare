@@ -1,0 +1,30 @@
+.article {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.notification {
+    position: fixed;
+    top: 100%;
+    transform: translateY(-100%);
+    width: 100%;
+    z-index: 1;
+}
+
+#logout, #create {
+    display: none;
+}
+
+.pagination {
+    display: none;
+}
+
+#loadingBar {
+    width: 50vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

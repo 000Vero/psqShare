@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Article</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pocketbase/0.8.0-rc1/pocketbase.umd.js" integrity="sha512-rXvsONe8nnMbEMubzO3Oj1mXbromnFXo7jtDekeUJ4ZJ1UuJTc/HZ7qgTLw8oL6vdfxy3NL35slBflsaEwUhpw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/article.css">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <p class="is-size-3 has-text-weight-bold">psqShare</p>
+            </a>
+        </div>
+    </nav>
+
+    <h1 class="title" id="articleTitle"></h1>
+    <progress class="progress is-large is-info" id="loadingBar" max="100"></progress>
+    <div id="articleBody" class="content"></div>
+    <p id="author" class="is-italic is-size-4"></p>
+    <button class="button is-danger is-outlined" id="delete" onclick="deleteArticle()">Elimina</button>
+    <script src="/js/article.js"></script>
+</body>
+</html>

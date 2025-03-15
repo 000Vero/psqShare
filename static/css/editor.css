@@ -1,0 +1,29 @@
+.title, .subtitle {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#post {
+    position: absolute;
+    left: 99%;
+    top: 99%;
+    transform: translate(-100%, -100%);
+}
+
+#editor {
+	border-color: var(--bulma-dark);
+	border-style: solid;
+	border-radius: 10px;
+    margin: 10px;
+}
+
+#articleTitle {
+    width: 70vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#container {
+    width: 100%;
+}
