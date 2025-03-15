@@ -1,4 +1,4 @@
-const pb = new PocketBase("http://127.0.0.1:8090")
+const pb = new PocketBase("https://psqshare.psqsoft.org")
 
 pb.authStore.loadFromCookie(document.cookie)
 if (pb.authStore.baseModel == null) {
