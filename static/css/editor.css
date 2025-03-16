@@ -4,7 +4,7 @@
 }
 
 #post {
-    position: absolute;
+    position: fixed;
     left: 99%;
     top: 99%;
     transform: translate(-100%, -100%);
