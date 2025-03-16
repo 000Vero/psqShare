@@ -7,7 +7,17 @@ if (pb.authStore.baseModel == null) {
 }
 
 const quill = new Quill("#editor", {
-    theme: "bubble"
+    theme: "bubble",
+    modules: {
+        toolbar: [
+            [{ 'header': 1 }, { 'header': 2 }],
+            ['bold', 'italic', 'underline', 'strike'],
+            [{ 'color': [] }],
+            [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+            ['blockquote', 'code-block'],
+            ['clean']
+        ]
+    }
 })
 
 async function postArticle() {
