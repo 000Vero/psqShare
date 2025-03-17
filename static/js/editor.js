@@ -14,6 +14,7 @@ const quill = new Quill("#editor", {
             ['bold', 'italic', 'underline', 'strike'],
             [{ 'color': [] }],
             [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+            ['link'],
             ['blockquote', 'code-block'],
             ['clean']
         ]
